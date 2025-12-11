@@ -1,9 +1,3 @@
-# Urban-Computing
-**1. asf**  
-
-**2. Trajectory and Road Network Analysis**
-
-
 # Trajectory and Road Analysis
 
 This project evaluates and improves the map matching performance in urban environments using the Porto taxi trajectory dataset. 
@@ -22,11 +16,11 @@ Experimental results show that the combined approach increases the overall match
 
 In this project, we perform several tasks of preprocessing, visualizing and query processing of trajectory data. The following tasks are highlighted in this repo (as per my contribution towards the project)
 
-# Task 2
+## Task 2
 
 Visualizing the raw GPS points of the first 15 trips in the trajectory data dataset on a map with the road network of Porto.
 
-# Task 3
+## Task 3
 
 Map Matching with Fast Map Matching (FMM)  
 
@@ -36,6 +30,6 @@ Hence, to correct this map matching algorithms are used. A map matching algorith
 
 To further improve the coverage of trips, hyperparameter tuning was performed alongside using ST-Match as a backup matcher (This is not covered in the code, as this is a group project and I am only documenting my     contents)
 
-# Task 4
+## Task 4
 
 Visualizing the map-matched routes that of the first 15 trips.
