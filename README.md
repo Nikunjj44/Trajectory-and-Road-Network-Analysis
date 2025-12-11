@@ -12,9 +12,18 @@ To address these issues, we propose a two-layer enhancement strategy:
 
 Experimental results show that the combined approach increases the overall matching success rate to above 99%, effectively resolving the failure cases in the baseline method. Our findings demonstrate that parameter optimization, together with complementary algorithmic collaboration, is an effective way to enhance the accuracy and robustness of map matching for urban trajectory data.
 
+# Tech Stack
+
+![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=for-the-badge&logo=geopandas&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
+![Folium](https://img.shields.io/badge/Folium-77B829?style=for-the-badge&logo=leaflet&logoColor=white)
+
+
 # Tasks
 
-In this project, we perform several tasks of preprocessing, visualizing and query processing of trajectory data. The following tasks are highlighted in this repo (as per my contribution towards the project)
+In this project, we perform several tasks of preprocessing, visualizing and query processing of trajectory data. The following tasks (same name as source code file) are highlighted in this repo (as per my contribution towards the project)
 
 ## Task 2
 
