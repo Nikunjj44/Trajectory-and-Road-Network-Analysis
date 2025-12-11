@@ -12,24 +12,50 @@ To address these issues, we propose a two-layer enhancement strategy:
 
 Experimental results show that the combined approach increases the overall matching success rate to above 99%, effectively resolving the failure cases in the baseline method. Our findings demonstrate that parameter optimization, together with complementary algorithmic collaboration, is an effective way to enhance the accuracy and robustness of map matching for urban trajectory data.
 
-# Tech Stack
+### Tech Stack Used
 
-![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=for-the-badge&logo=geopandas&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-![Folium](https://img.shields.io/badge/Folium-77B829?style=for-the-badge&logo=leaflet&logoColor=white)
+<p align="left">
+
+  <!-- Python -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45"/>
+
+  <!-- Pandas -->
+  <img src="https://pandas.pydata.org/static/img/pandas_white.svg" width="45"/>
+
+  <!-- NumPy -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="45"/>
+
+  <!-- Matplotlib -->
+  <img src="https://matplotlib.org/_static/images/logo2.svg" width="55"/>
+
+  <!-- GeoPandas -->
+  <img src="https://geopandas.org/en/stable/_static/geopandas_logo.png" width="55"/>
+
+  <!-- OSMnx -->
+  <img src="https://github.com/gboeing/osmnx/raw/main/docs/images/osmnx_logo.png" width="55"/>
+
+  <!-- TQDM -->
+  <img src="https://raw.githubusercontent.com/tqdm/tqdm/master/images/logo.gif" width="80"/>
+
+  <!-- Shapely -->
+  <img src="https://shapely.readthedocs.io/en/stable/_static/shapely_logo.png" width="50"/>
+
+  <!-- FMM (Fast Map Matching) -->
+  <img src="https://raw.githubusercontent.com/cyang-kth/fmm/master/doc/fmm-logo.png" width="45"/>
+
+</p>
 
 
-# Tasks
+
+### Tasks
 
 In this project, we perform several tasks of preprocessing, visualizing and query processing of trajectory data. The following tasks (same name as source code file) are highlighted in this repo (as per my contribution towards the project)
 
-## Task 2
+#### Task 2
 
 Visualizing the raw GPS points of the first 15 trips in the trajectory data dataset on a map with the road network of Porto.
 
-## Task 3
+#### Task 3
 
 Map Matching with Fast Map Matching (FMM)  
 
@@ -39,6 +65,6 @@ Hence, to correct this map matching algorithms are used. A map matching algorith
 
 To further improve the coverage of trips, hyperparameter tuning was performed alongside using ST-Match as a backup matcher (This is not covered in the code, as this is a group project and I am only documenting my     contents)
 
-## Task 4
+#### Task 4
 
 Visualizing the map-matched routes that of the first 15 trips.
