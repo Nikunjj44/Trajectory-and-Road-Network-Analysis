@@ -23,6 +23,10 @@ Experimental results show that the combined approach increases the overall match
 ![tqdm](https://img.shields.io/badge/tqdm-343434?logo=python&logoColor=white)
 ![Shapely](https://img.shields.io/badge/Shapely-0A7E8C?logo=python&logoColor=white)
 ![FMM](https://img.shields.io/badge/FMM-FastMapMatch-blue)
+![GeoPandas](https://img.shields.io/badge/GeoPandas-43B02A?logo=python&logoColor=white)
+![OSMnx](https://img.shields.io/badge/OSMnx-000000?logo=openstreetmap&logoColor=white)
+![Shapely](https://img.shields.io/badge/Shapely-0A7E8C?logo=python&logoColor=white)
+![FMM](https://img.shields.io/badge/FMM-FastMapMatch-blue)
 
 
 
