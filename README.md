@@ -14,36 +14,15 @@ Experimental results show that the combined approach increases the overall match
 
 ### Tech Stack Used
 
-<p align="left">
-
-  <!-- Python -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45"/>
-
-  <!-- Pandas -->
-  <img src="https://pandas.pydata.org/static/img/pandas_white.svg" width="45"/>
-
-  <!-- NumPy -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="45"/>
-
-  <!-- Matplotlib -->
-  <img src="https://matplotlib.org/_static/images/logo2.svg" width="55"/>
-
-  <!-- GeoPandas -->
-  <img src="https://geopandas.org/en/stable/_static/geopandas_logo.png" width="55"/>
-
-  <!-- OSMnx -->
-  <img src="https://github.com/gboeing/osmnx/raw/main/docs/images/osmnx_logo.png" width="55"/>
-
-  <!-- TQDM -->
-  <img src="https://raw.githubusercontent.com/tqdm/tqdm/master/images/logo.gif" width="80"/>
-
-  <!-- Shapely -->
-  <img src="https://shapely.readthedocs.io/en/stable/_static/shapely_logo.png" width="50"/>
-
-  <!-- FMM (Fast Map Matching) -->
-  <img src="https://raw.githubusercontent.com/cyang-kth/fmm/master/doc/fmm-logo.png" width="45"/>
-
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-005C7A?logo=matplotlib&logoColor=white)
+![GeoPandas](https://img.shields.io/badge/GeoPandas-43B02A?logo=python&logoColor=white)
+![OSMnx](https://img.shields.io/badge/OSMnx-000000?logo=openstreetmap&logoColor=white)
+![tqdm](https://img.shields.io/badge/tqdm-343434?logo=python&logoColor=white)
+![Shapely](https://img.shields.io/badge/Shapely-0A7E8C?logo=python&logoColor=white)
+![FMM](https://img.shields.io/badge/FMM-FastMapMatch-blue)
 
 
 
