@@ -3,16 +3,39 @@
 
 **2. Trajectory and Road Network Analysis**
 
-In this project, we perform several tasks of preprocessing, visualizing and query processing of trajectory data.
 
-The following tasks are covered (wrt source code files):
-- **Task 2:** Visualizing the raw GPS points of the first 15 trips in the trajectory data dataset on a map with the road network of Porto.
-- **Task 3:** Map Matching using FMM
+# Trajectory and Road Analysis
 
-  The raw GPS points are inaccurate. Some common causes of these inaccuracies include low quality hardware, signal interference and atmospheric conditions. This leads to GPS points being out of place where no road is   present or trajectories not following an actual path.
+This project evaluates and improves the map matching performance in urban environments using the Porto taxi trajectory dataset. 
 
-  Hence, to correct this map matching algorithms are used. A map matching algorithm is a technique typically used to align the coordinates (often captured via a GPS) with the road network. This helps in correcting      the positional error and improving the plotting of trajectories.
+We first apply Fast Map Matching (FMM) to 1,481 trajectories as the baseline and observe that the original configuration fails on a subset of cases due to GPS noise, sparse sampling, and insufficient candidate-road search range.
 
-  To further improve the coverage of trips, hyperparameter tuning was performed alongside using ST-Match as a backup matcher (This is not covered in the code, as this is a group project and I am only documenting my     contents)
+To address these issues, we propose a two-layer enhancement strategy: 
 
-- **Task 4:** Visualizing the map-matched routes that of the first 15 trips.
+(1) Improving the robustness of FMM through parameter tuning—including enlarging the search radius, increasing the number of candidates, and relaxing the GPS error threshold
+
+(2) Employing the spatio-temporally constrained ST-MATCH algorithm as a fallback when necessary. 
+
+Experimental results show that the combined approach increases the overall matching success rate to above 99%, effectively resolving the failure cases in the baseline method. Our findings demonstrate that parameter optimization, together with complementary algorithmic collaboration, is an effective way to enhance the accuracy and robustness of map matching for urban trajectory data.
+
+# Tasks
+
+In this project, we perform several tasks of preprocessing, visualizing and query processing of trajectory data. The following tasks are highlighted in this repo (as per my contribution towards the project)
+
+# Task 2
+
+Visualizing the raw GPS points of the first 15 trips in the trajectory data dataset on a map with the road network of Porto.
+
+# Task 3
+
+Map Matching with Fast Map Matching (FMM)  
+
+The raw GPS points are inaccurate. Some common causes of these inaccuracies include low quality hardware, signal interference and atmospheric conditions. This leads to GPS points being out of place where no road is   present or trajectories not following an actual path.
+
+Hence, to correct this map matching algorithms are used. A map matching algorithm is a technique typically used to align the coordinates (often captured via a GPS) with the road network. This helps in correcting      the positional error and improving the plotting of trajectories.
+
+To further improve the coverage of trips, hyperparameter tuning was performed alongside using ST-Match as a backup matcher (This is not covered in the code, as this is a group project and I am only documenting my     contents)
+
+# Task 4
+
+Visualizing the map-matched routes that of the first 15 trips.
