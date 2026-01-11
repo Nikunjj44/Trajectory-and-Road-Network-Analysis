@@ -48,7 +48,7 @@ To further improve the coverage of trips, hyperparameter tuning was performed al
 Visualizing the map-matched routes that of the first 15 trips.
 
 
-## 🏫 Academic Context
+## Academic Context
 Completed during my Undergraduate studies at **Nanyang Technological University (NTU), Singapore**.
 
 * **Course:** Urban Computing
@@ -56,7 +56,7 @@ Completed during my Undergraduate studies at **Nanyang Technological University 
 * **Grade Achieved:** A
 
 
-## 📜 License & Usage
+## License & Usage
 This project is licensed under the **MIT License**. 
 
 **Note for current/future NTU students:** While this repository is public, please ensure you adhere to NTU's Academic Integrity Policy. This is intended as a reference for my personal portfolio; using this code for your own graded assignments is strictly prohibited by the University.
