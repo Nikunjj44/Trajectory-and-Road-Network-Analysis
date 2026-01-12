@@ -14,14 +14,14 @@ Experimental results show that the combined approach increases the overall match
 
 ### Tech Stack Used
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-005C7A?logo=matplotlib&logoColor=white)
-![GeoPandas](https://img.shields.io/badge/GeoPandas-43B02A?logo=python&logoColor=white)
-![OSMnx](https://img.shields.io/badge/OSMnx-000000?logo=openstreetmap&logoColor=white)
-![Shapely](https://img.shields.io/badge/Shapely-0A7E8C?logo=python&logoColor=white)
-![FMM](https://img.shields.io/badge/FMM-FastMapMatch-blue)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=for-the-badge&logo=python&logoColor=white)
+![OSMnx](https://img.shields.io/badge/OSMnx-000000?style=for-the-badge&logo=openstreetmap&logoColor=white)
+![Shapely](https://img.shields.io/badge/Shapely-2E7D32?style=for-the-badge&logo=python&logoColor=white)
+![FastMapMatch](https://img.shields.io/badge/FastMapMatch-1976D2?style=for-the-badge&logo=python&logoColor=white)
 
 
 
