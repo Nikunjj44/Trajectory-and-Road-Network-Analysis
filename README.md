@@ -56,7 +56,5 @@ Completed during my Undergraduate studies at **Nanyang Technological University 
 * **Grade Achieved:** A
 
 
-## License & Usage
-This project is licensed under the **MIT License**. 
-
+## Usage
 **Note for current/future NTU students:** While this repository is public, please ensure you adhere to NTU's Academic Integrity Policy. This is intended as a reference for my personal portfolio; using this code for your own graded assignments is strictly prohibited by the University.
