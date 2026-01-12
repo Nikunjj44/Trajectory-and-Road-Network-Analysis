@@ -49,7 +49,7 @@ Visualizing the map-matched routes that of the first 15 trips.
 
 
 ## Academic Context
-Completed during my Undergraduate studies at **Nanyang Technological University (NTU), Singapore**.
+Completed during my Graduate studies at **Nanyang Technological University (NTU), Singapore**.
 
 * **Course:** Urban Computing
 * **Semester:** AY 2025/2026, Semester 1
